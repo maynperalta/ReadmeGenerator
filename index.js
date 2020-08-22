@@ -31,7 +31,7 @@ const questions = [
     {
         message : "What is the licensing of this project?",
         type : "list",
-        choices : ["MIT", "GPL", "GNU", "ISC", "Apache"],
+        choices : ["MIT", "GPL-3.0", "EPL-1.0", "ISC", "Apache-2.0"],
         name : "license"
     },
     {
@@ -76,3 +76,25 @@ function init() {
 
 // function call to initialize program
 init();
+
+//
+
+//Apache 2.0 License
+//License
+//[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+//The MIT License
+//License: MIT
+//[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+//ISC License (ISC)
+//License: ICL
+//[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
+//GNU GPL v3
+//License: GPL v3
+//[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+//Eclipse Public License 1.0
+//License
+//[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
