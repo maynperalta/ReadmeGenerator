@@ -5,30 +5,30 @@ function generateMarkdown(data) {
   ${data.description}
 
   ### Table of Contents
-  ###installation-instructions
-  ###usage-information
-  ###license
-  ###contributions
-  ###tests
-  ###questions/contact
+  [Installation](#installation)<br/>
+  [Usage](#usage)<br/>
+  [License](#license)<br/>
+  [Contributing](#contributing)<br/>
+  [Tests](#tests)<br/>
+  [Questions](#questions)
 
-  ### Installation Instructions
+  ### Installation
   ${data.instructions}
 
-  ### Usage Information
+  ### Usage
   ${data.usage}
 
   ### License
   ${data.license}
 
-  ### Contributions
+  ### Contributing
   ${data.contributions}
 
   ### Tests
   ${data.test}
 
-  ### Questions/Contact
-  If you have any questions regarding the project, feel free to reach me at <${data.email}. You can also view my GitHub profile [HERE](https://github.com/${data.github})!
+  ### Questions
+  If you have any questions regarding the project, feel free to reach me at <${data.email}>. You can also view my GitHub profile [HERE](https://github.com/${data.github})!
 
 `;
 }
