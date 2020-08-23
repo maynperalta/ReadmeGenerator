@@ -1,7 +1,7 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
+function generateMarkdown({license, title, description, instructions, usage, contributions, test, email, github}) {
   let licenseURL = '';
-  switch (data.license) {
+  switch (license) {
     case 'Apache 2.0':
       licenseURL = 'apache-2.0';
       break;
@@ -20,10 +20,10 @@ function generateMarkdown(data) {
       break;
   }
 
-  return `# ${data.title}
-  [![License](https://img.shields.io/badge/License-${encodeURI(data.license)}-blue.svg)](https://opensource.org/licenses/${licenseURL})
+  return `# ${title}
+  [![License](https://img.shields.io/badge/License-${encodeURI(license)}-blue.svg)](https://opensource.org/licenses/${licenseURL})
   ## Description
-  ${data.description}
+  ${description}
 
   ### Table of Contents
   [**Installation**](#installation)<br/>
@@ -34,25 +34,25 @@ function generateMarkdown(data) {
   [**Questions**](#questions)
 
   ### Installation
-  ${data.instructions}
+  ${instructions}
 
   ### Usage
-  ${data.usage}
+  ${usage}
 
   ### License
-  This project is licensed under ${data.license}<br/>
+  This project is licensed under ${license}<br/>
   License information can be found [here](https://opensource.org/licenses/${licenseURL}).
 
   ### Contributing
-  ${data.contributions}
+  ${contributions}
 
   ### Tests
-  ${data.test}
+  ${test}
 
   ### Questions
   If you have any questions regarding the project, feel free to reach out to the contributors below: <br/>
-  <${data.email}> <br/>
-  [GitHub profile](https://github.com/${data.github})
+  <${email}> <br/>
+  [GitHub profile](https://github.com/${github})
 
 `;
 }

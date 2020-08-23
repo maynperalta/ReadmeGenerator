@@ -1,7 +1,7 @@
 # test
-  [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+  [![License](https://img.shields.io/badge/License-EPL%201.0-blue.svg)](https://opensource.org/licenses/EPL-1.0)
   ## Description
-  test
+  tested
 
   ### Table of Contents
   [**Installation**](#installation)<br/>
@@ -12,20 +12,20 @@
   [**Questions**](#questions)
 
   ### Installation
-  test
+  testing
 
   ### Usage
-  test
+  testy
 
   ### License
-  This project is licensed under GPL 3.0<br/>
-  License information can be found [here](https://opensource.org/licenses/GPL-3.0).
+  This project is licensed under EPL 1.0<br/>
+  License information can be found [here](https://opensource.org/licenses/EPL-1.0).
 
   ### Contributing
-  test
+  tester
 
   ### Tests
-  test
+  just test
 
   ### Questions
   If you have any questions regarding the project, feel free to reach out to the contributors below: <br/>
