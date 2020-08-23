@@ -4,14 +4,14 @@ var fs = require('fs');
 
 const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
+    {   message : "What is the title of this project?",
+        type : "input",
+        name : "title"
+    },
     {
         message : "Briefly describe the project.",
         type : "input",
         name : "description"
-    },
-    {   message : "What is the title of this project?",
-        type : "input",
-        name : "title"
     },
     {
         message : "What are the installation instructions?",
@@ -31,7 +31,7 @@ const questions = [
     {
         message : "What is the licensing of this project?",
         type : "list",
-        choices : ["MIT", "GPL-3.0", "EPL-1.0", "ISC", "Apache 2.0"],
+        choices : ["MIT", "GPL 3.0", "EPL 1.0", "ISC", "Apache 2.0"],
         name : "license"
     },
     {
