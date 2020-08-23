@@ -24,32 +24,39 @@ function generateMarkdown({license, title, description, instructions, usage, con
   [![License](https://img.shields.io/badge/License-${encodeURI(license)}-blue.svg)](https://opensource.org/licenses/${licenseURL})
   ## Description
   ${description}
+  <br/>
 
-  ### Table of Contents
+  ## Table of Contents
   [**Installation**](#installation)<br/>
   [**Usage**](#usage)<br/>
   [**License**](#license)<br/>
   [**Contributing**](#contributing)<br/>
   [**Tests**](#tests)<br/>
   [**Questions**](#questions)
+  <br/>
 
-  ### Installation
+  ## Installation
   ${instructions}
+  <br/>
 
-  ### Usage
+  ## Usage
   ${usage}
+  <br/>
 
-  ### License
+  ## License
   This project is licensed under ${license}<br/>
   License information can be found [here](https://opensource.org/licenses/${licenseURL}).
+  <br/>
 
-  ### Contributing
+  ## Contributing
   ${contributions}
+  <br/>
 
-  ### Tests
+  ## Tests
   ${test}
+  <br/>
 
-  ### Questions
+  ## Questions
   If you have any questions regarding the project, feel free to reach out to the contributors below: <br/>
   <${email}> <br/>
   [GitHub profile](https://github.com/${github})
