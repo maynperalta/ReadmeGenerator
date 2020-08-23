@@ -35,7 +35,8 @@
   <br/>
 
   ## Tests
-  Users should open a preview of the generated README markdown file in VSCode and check for errors/bugs or anything that needs to be corrected and make corrections/fixes before pushing to the master branch repository.
+  Users should open a preview of the generated README markdown file in VSCode and check for errors/bugs or anything that needs to be corrected and make corrections/fixes before pushing to the master branch repository. A screenshot of a successfully generated README file is below. The terminal with give the message "Saved!" if the generation was successful<br/>
+  ![](utils/result.png)
   <br/>
 
   ## Questions
