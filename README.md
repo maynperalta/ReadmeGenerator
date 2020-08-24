@@ -1,5 +1,6 @@
 # README Generator
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
   ## Description
   This is a README Generator project designed to help a user quickly generate a README markdown file for projects which require it. <br/>
   ![](utils/Demo.gif)
@@ -16,10 +17,9 @@
 
   ## Installation
   Open the repository folder in VSCode along with an integrated terminal. Be sure the integrated terminal command path is the same as the repository folder. On the terminal command line enter "node index.js" and enter the requested information. A link to a YouTube video demonstration is below.<br/>
-
+  
   [![Video Demonstration](utils/logo.jpg)](https://youtu.be/3mILt2NMVaY)
   <br/>
-
 
   ## Usage
   This project can be used in order to quickly generate a README markdown file which allows users to spend less time typing one from the ground up and more time on other projects.
